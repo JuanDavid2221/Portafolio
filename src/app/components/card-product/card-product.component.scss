@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: black;
+    background-color: rgb(48, 48, 48);
 }
 
 html{
@@ -19,7 +19,7 @@ html{
 }
 
 .logo{
-    font-size: 3rem;
+    font-size: 2rem;
     color: white;
     font-weight: 800;
     cursor: pointer;
@@ -29,9 +29,13 @@ html{
 .logo:hover{
     transform: scale(1.1);
 }
-
+span{
+    color: #6bff33
+;
+}
 .logo span{
-    text-shadow: 0 0 25px #00ffee;
+    text-shadow: 0 0 25px #6bff33
+;
 }
 
 /* Estilos del header */
@@ -40,9 +44,8 @@ html{
     top: 0;
     left: 0;
     width: 100%;
-    padding: 4rem 12% 4rem;
-    background-color: rgba(0, 0, 0, 0.3);
-    backdrop-filter: blur(10px);
+    padding: 1rem 12% 1rem;
+    background-color: #0d0d0d;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -59,10 +62,10 @@ html{
 
 /* Estilos de los enlaces */
 .navbar a {
-    font-size: 1.8rem;
+    font-size: 1rem;
     color: white;
     font-weight: 500;
-    margin-left: 4rem;
+    margin-left: 1rem;
     transition: 0.3s ease;
     border-bottom: 3px solid transparent;
 }
@@ -70,13 +73,13 @@ html{
 /* Efecto hover y activo */
 .navbar a:hover,
 .navbar a:active {
-    color: #00ffee;
-    border-bottom: 3px solid #00ffee;
+    color: #6bff33;
+    border-bottom: 3px solid #6bff33;
 }
 
 /* Ícono del menú */
 #menu {
     font-size: 3.6rem;
-    color: #00ffee;
+    color: #6bff33;
     display: none;
 }

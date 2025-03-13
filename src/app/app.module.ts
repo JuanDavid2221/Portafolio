@@ -1,18 +1,15 @@
 import { NgModule, CUSTOM_ELEMENTS_SCHEMA  } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CardProductComponent } from './components/card-product/card-product.component';
-import { ButtonComponent } from './components/atoms/button/button.component';
-import { OrganismsComponent } from './components/organisms/organisms.component';
-
+import { HomeProductComponent } from './components/home-product/home-product.component';
 @NgModule({
   declarations: [
     AppComponent,
     CardProductComponent,
-    ButtonComponent,
-    OrganismsComponent
+    HomeProductComponent
+
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],
   imports: [
